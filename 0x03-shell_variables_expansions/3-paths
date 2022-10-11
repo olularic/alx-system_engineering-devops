@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr "z" "/n" | wc -l  
+echo $PATH | tr ":" "/n" | wc -l  
